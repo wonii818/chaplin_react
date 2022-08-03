@@ -1,0 +1,96 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+#root {
+  height: 100%;
+}
+
+#myMap {
+  width: 100%;
+  height: 100%;
+}
+#container {
+  height: 100vh;
+  overflow: hidden;
+}
+.Plans {
+  /* height: calc(100vh - 100); */
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+.map_schedule {
+  margin: 0 10px;
+}
+.map_main {
+  height: 100vh;
+}
+.map_search {
+  height: 100vh;
+  margin: 0 10px;
+  position: relative;
+  overflow: hidden;
+}
+.searchbtn {
+  position: absolute;
+  top: 12px;
+  right: 30px;
+}
+.mapsearch {
+  width: 100%;
+}
+.search {
+  padding: 5px;
+  border: 3px solid #f5f5f5;
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  font-weight: 300;
+}
+
+.result_list {
+  width: 100%;
+}
+
+.list {
+  height: 100px;
+  border: 3px solid #f5f5f5;
+  position: relative;
+}
+
+.listinfo {
+  margin-left: 5px;
+}
+.place_name {
+  margin: auto auto 0 auto;
+  font-size: 16px;
+  font-weight: 700;
+}
+.place_address {
+  margin: auto auto 0 auto;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#pagination {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.addplanbtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.removeplanbtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.MyPlanButtonOpen {
+  left: 3px;
+}
